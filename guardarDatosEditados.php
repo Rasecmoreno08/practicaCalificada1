@@ -1,11 +1,4 @@
 <?php
-/*
-Este archivo guarda los datos del formulario en donde se editan
-*/
-?>
-
-<?php
-
 #Salir si alguno de los datos no está presente
 if (
     !isset($_POST["nombre"]) ||
@@ -30,5 +23,4 @@ if ($resultado === true) {
 } else {
     echo "Algo salió mal. Por favor verifica que la tabla exista, así como el ID del usuario";
 }
-
 ?>
