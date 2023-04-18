@@ -24,11 +24,11 @@ $edad = $_POST["edad"];
 
 $sentencia = $base_de_datos->prepare("UPDATE mascotas SET nombre = ?, edad = ? WHERE id = ?;");
 $resultado = $sentencia->execute([$nombre, $edad, $id]); # Pasar en el mismo orden de los ?
-header("Location: listar.php");
-/*
+
 if ($resultado === true) {
     header("Location: listar.php");
 } else {
     echo "Algo salió mal. Por favor verifica que la tabla exista, así como el ID del usuario";
 }
-*/
+
+?>
