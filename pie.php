@@ -27,7 +27,7 @@ footer a{
     text-decoration: none;
     border-radius: 30px;
     padding: 15px;
-    transition: .5s;
+    transition: 1s;
 }
 footer a:hover{
     text-decoration: none;
