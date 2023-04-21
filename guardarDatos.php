@@ -1,0 +1,24 @@
+<?php
+
+if(
+    !isset($_POST["nombre"]) ||
+    !isset($_POST["edad"]) ||
+    !isset($_POST["id"])
+){
+    exit();
+}
+
+include_once "baseDeDatos.php";
+$id = $_POST["id"];
+$nombre = $_POST["nombre"];
+$edad = $_POST["edad"];
+
+$sentencia = $base_de_datos-> prepare("UPDATE mascotas SET nombre = ?, edad = ? WHERE id= ?;");
+$resultado = $sentencia->execute([$nombre, $edad, $id]);
+
+if ($resultado === true){
+    header("Location: listar.php");
+} else{
+    echo "Algo salió mal. Por Favor verifica que la tabla exista, así como el ID del usuario";
+}
+?>
