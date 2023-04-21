@@ -26,7 +26,8 @@ footer a{
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
+    transition: .5s;
 }
 footer a:hover{
     background-color: #fff;
