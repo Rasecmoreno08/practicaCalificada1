@@ -7,7 +7,7 @@ Este archivo simplemente cierra las etiquetas abiertas en encabezado.php
 </main>
 <footer>
   <div class="container">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Presione aquí si usted es mega Pro</a>
+    <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Presione aquí si usted es mega Pro</a>
 </footer>
 
 </body>
