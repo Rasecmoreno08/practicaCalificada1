@@ -18,7 +18,7 @@ footer {
     font-size: 18px;
     line-height: 1.5;
 }
-.container{
+footer .container{
     display: flex;
     justify-content: center;
     align-items: center;
