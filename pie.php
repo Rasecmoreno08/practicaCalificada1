@@ -17,6 +17,8 @@ footer {
     padding: 50px 0;
     font-size: 18px;
     line-height: 1.5;
+}
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
