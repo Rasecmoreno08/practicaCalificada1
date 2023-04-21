@@ -16,7 +16,6 @@ footer {
     background-color: #1d1d1d;
     padding: 50px 0;
     font-size: 18px;
-    line-height: 1.5;
 }
 footer .container{
     display: flex;
